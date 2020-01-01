@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto+Mono');
+
+a {
+	color:#000;
+}
+
+a:hover{
+	color:#333;
+	text-decoration: none;
+}
+
+.header {
+	padding-top: 50px;
+	padding-bottom:20px;
+	margin: 5px;
+	line-height: 1.15;
+}
+
+.header h {
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+@media screen and (min-width: 601px) {
+  div.header h {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.header h {
+    font-size: 20px;
+  }
+}
+
+#bg{	
+	display:block;
+	width: 40vw;
+	z-index: 0;
+	opacity: 0.85;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#profile{
+	display:block;
+	max-width:100%;
+	z-index:0;
+	opacity:0.9;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:30px;
+
+}
+
+#content{
+	position: relative;
+	z-index: 1;
+
+}
+
+.landing{
+	padding:10px;
+}
+
+.text {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.wrapper {
+	color: #000;
+}
+
+.footer {
+	font-family:'Roboto Mono', sans-serif;
+	font-size: 10px;
+	color:#000;
+	padding:5px;
+}
+
+@media screen and (min-width: 601px) {
+  div.footer {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.footer {
+    font-size: 5px;
+  }
+}
+
+.navi{
+	font-family:'Roboto Mono', sans-serif;
+}
+
+@media screen and (min-width: 601px) {
+  div.navi {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.navi {
+    font-size: 10px;
+  }
+}
+
+.paragraphs{
+	font-family:'Roboto Mono', sans-serif;
+	font-size: 16px;
+	width:75%;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.writingtable {
+	margin-left: auto;
+	margin-right: auto;
+	width:75%;
+	/*copied from .paragraphs*/
+	font-family:'Roboto Mono', sans-serif;
+	font-size: 16px;
+	width:75%;
+	text-align: justify;
+}
+
+.youtubeembed {
+	position: relative;
+    overflow: hidden;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resp-iframe {
+    display:block;
+    width: 50%;
+    height:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.pictures-grid{
+	margin-top:40px;
+}
+
